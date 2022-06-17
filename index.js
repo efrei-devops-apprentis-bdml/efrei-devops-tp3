@@ -31,6 +31,6 @@ app.get('/weather', (req,res) => {
 })
 
 
-app.listen(8080, () => {
+app.listen(80, () => {
     console.log("Serveur à l'écoute")
 })
