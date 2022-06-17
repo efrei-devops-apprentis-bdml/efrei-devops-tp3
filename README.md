@@ -1,4 +1,4 @@
-### Rapport · Devops TP3
+##### Rapport · Devops TP3
 
 ### Fonctionnement général
 
@@ -42,6 +42,7 @@ Le projet étant créé en sein de l'organisation efrei-devops-apprentis-bdml, l
  ```
  
 Un seul problème rencontré à cette étape, le fait qu'un autre dns dans la même région avait déjà le label devops-20180676, je l'ai donc remplacé par devops-2018067666. Ainsi, le container est bien créé et l'image est bien déployé dedans ! 
+ 
  
  
  ### Test de l'API 
