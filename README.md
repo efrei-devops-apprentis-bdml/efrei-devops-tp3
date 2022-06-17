@@ -4,9 +4,9 @@
 
 Le but du TP est de créer un worflow github action qui, à chaque push sur le répo, build l'image Docker du projet et la push sur un container dans Azure.
  ```mermaid
-graph flow;
-    Repo-Github-->Build;
-    Build-->Azure-Container-Instance;
+graph TD;
+    Repo Github-->Build;
+    Build-->Azure Container Instance;
 ```
 
 ### Configuration du Dockerfile
